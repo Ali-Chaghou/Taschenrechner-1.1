@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 187, 154);
+}
+
+h1 {
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(118, 11, 47);
+    background-color: #9de60a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 7vh;
+    font-size: 1em;
+    border-radius: 40%;
+}
+
+.ergebnisFläche {
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 4vw .5vh 0;
+    height: 20vh;
+    font-size: 3em;
+}
+
+table {
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    width: 100vw;
+    height: 63vh;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+td {
+    width: 25vw;
+    background-color: rgb(65, 65, 65);
+}
+
+td:hover {
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+}
+
+#result {
+    background-color: rgb(247, 137, 53);
+}
+
+#result:hover {
+    background-color: rgb(184, 64, 0);
+    color: rgb(65, 65, 65);
+}
+
+.eigenart {
+    background-color: #35daf7;
+    color: rgb(65, 65, 65);
+}
+
+.eigenart:hover {
+    background-color: rgb(13, 118, 147);
+    color: rgb(265, 265, 265);
+}
+
+.komma {
+    background-color: rgb(165, 165, 165);
+}
+
+.komma:hover {
+    background-color: rgb(265, 265, 265);
+    color: rgb(55, 52, 52);
+}
+
+.Delete {
+    background-color: rgb(5, 192, 244);
+    color: rgb(55, 52, 52);
+}
+
+.Delete:hover {
+    background-color: rgb(37, 74, 84);
+    color: rgb(247, 241, 241);
+}
+
+footer {
+    font-family: 'Coming Soon', cursive;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+footer>p {
+    text-decoration: underline;
+}
+
+footer>a {
+    text-decoration: none;
+    color: rgb(55, 52, 52);
+}
+
+footer>a:hover {
+    text-decoration: underline;
+    color: wheat;
+    background-color: rgb(5, 192, 244);
+}
